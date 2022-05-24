@@ -15,7 +15,14 @@ body {
   align-items: center;
   justify-content: center;
 }
-
+.main-container {
+  background-color: #222 !important;
+}
+.altcolor {
+  background-image: url("./images/undraw_working_re_ddwy.svg");
+  background-position: top;
+  opacity: 0.9;
+}
 div.photo-margin > img {
   object-fit: cover;
   object-position: top;
@@ -51,7 +58,10 @@ div.photo-margin > img {
 .name-container {
   flex: 3 730px;
 }
-.name {
+.name,
+.name-container {
+  font-family: "Poppins", sans-serif;
+  color: white;
 }
 .backcolor {
   z-index: 2;
@@ -64,7 +74,9 @@ div.photo-margin > img {
   justify-content: center;
 }
 .name-container p {
-  font-family: "Poppins", sans-serif;
+}
+.name-container {
+  background-color: rgba(20, 20, 20, 0.5);
 }
 .aside {
   flex: 1 350px;
