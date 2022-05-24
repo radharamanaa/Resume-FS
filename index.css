@@ -34,7 +34,9 @@ div.photo-margin > img {
 .exp-break {
   margin: 0 auto;
   max-width: 1080px;
-  /* background-color: var(--bg-color); */
+}
+.exp-break {
+  background-color: #645ce8;
 }
 .main-container-2 {
   margin: 0 auto;
