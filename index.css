@@ -94,3 +94,6 @@ div.photo-margin > img {
   justify-content: start;
   max-width: max-content;
 }
+.inner-container {
+  max-width: 1080px;
+}
