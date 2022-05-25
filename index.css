@@ -97,3 +97,23 @@ div.photo-margin > img {
 .inner-container {
   max-width: 1080px;
 }
+.education-inn-cont {
+  display: flex;
+  visibility: hidden;
+  opacity: 0;
+  padding: 2rem 2rem;
+  transition: opacity 0.5s ease-in;
+  top: 4rem;
+}
+.education-container:hover .education-inn-cont {
+  display: flex;
+  visibility: visible;
+  opacity: 1;
+  flex-direction: column;
+}
+.std {
+  font-weight: 600;
+}
+.break {
+  height: 1px;
+}
